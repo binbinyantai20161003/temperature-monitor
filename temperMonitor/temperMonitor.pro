@@ -13,9 +13,17 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    connectdlg.cpp \
+    channelconfig.cpp
 
 HEADERS  += mainwindow.h \
-    globaldef.h
+    globaldef.h \
+    connectdlg.h \
+    channelconfig.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    connectdlg.ui \
+    channelconfig.ui
+
+RC_ICONS +=AppIco.ico

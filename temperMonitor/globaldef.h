@@ -3,9 +3,9 @@
 
 /////////////////////////////////////////////////////////
 //define picture
-#define ICON_STARTUP "startup.png"
-
-
+#define ICON_STARTUP        "startup.png"
+#define ICON_CHILD          "child.png"
+#define ICON_CONFIGTREE     "configtree.png"
 /////////////////////////////////////////////////////////
 //define path
 #define EXE_FILE_PATH                 QString(QApplication::applicationDirPath())

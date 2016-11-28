@@ -20,6 +20,7 @@ int main(int argc, char *argv[])
     QString pic = RESOURCE_FILE_PATH+ICON_STARTUP;
     QPixmap map(pic);
     splashScreen->setPixmap(map);
+    //we can add word to the picture
     splashScreen->showMessage("LOVE",Qt::AlignCenter, Qt::red);
     splashScreen->show();
     //add end
